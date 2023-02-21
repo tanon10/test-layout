@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  color: white;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+  }
+}

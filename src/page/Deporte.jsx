@@ -1,4 +1,4 @@
-import { Article, ArticleImg, Content, Navbar } from "../components";
+import { Article, ArticleImg, Content, Navbar, Separator } from "../components";
 
 export const Deporte = () => {
   return (
@@ -22,6 +22,7 @@ export const Deporte = () => {
           content="El cuestionario con el que la CTA investiga si los arbitros han tenido relacion con el hijo de Negreira"
         />
       </Content>
+      <Separator title="OPINIÓN" />
     </>
   );
 };

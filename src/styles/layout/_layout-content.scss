@@ -1,12 +1,13 @@
-.layout-content{
-    width: 1200px;
+.layout-content {
+  width: 1200px;
+  margin: auto;
+
+  @media (min-width: $mobile) and (max-width: $desktop) {
     margin: auto;
+    width: 90%;
+  }
 
-    @media (max-width: 1200px) {
-        width: 80%;
-    }
-
-    @media (max-width: 640px ) {
-        width: 90%;
-    }
+  @media (max-width: $mobile) {
+    width: 90%;
+  }
 }

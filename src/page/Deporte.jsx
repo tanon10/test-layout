@@ -1,4 +1,11 @@
-import { Article, ArticleImg, Content, Navbar, Separator } from "../components";
+import {
+  Article,
+  ArticleAuthor,
+  ArticleImg,
+  Content,
+  Navbar,
+  Separator,
+} from "../components";
 
 export const Deporte = () => {
   return (
@@ -23,6 +30,23 @@ export const Deporte = () => {
         />
       </Content>
       <Separator title="OPINIÓN" />
+      <Content>
+        <ArticleAuthor
+          imgAuthor="https://avatars.githubusercontent.com/u/48967032?v=4"
+          author="Joan Josep Pallas"
+          article="El Barca y una mancha inexplicable"
+        />
+        <ArticleAuthor
+          imgAuthor="https://avatars.githubusercontent.com/u/48967032?v=4"
+          author="Santiago Segurola"
+          article="El hedor insoportable"
+        />
+        <ArticleAuthor
+          imgAuthor="https://avatars.githubusercontent.com/u/48967032?v=4"
+          author="Xavier Aldeoka"
+          article="Gavi, carnaval y los detalles"
+        />
+      </Content>
     </>
   );
 };
